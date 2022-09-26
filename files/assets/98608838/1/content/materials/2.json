@@ -1,0 +1,1 @@
+{"name":"Hair","data":{"shader":"phong","ambient":[0,0,0],"diffuse":[0.8,0.8,0.8],"diffuseMap":1,"diffuseMapOffset":[0,0],"diffuseMapTiling":[1,1],"specular":[0.5,0.5,0.5],"shininess":2.88175,"emissive":[0,0,0],"opacity":1}}

@@ -1,0 +1,1777 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": {
+
+			},
+			"materials": [
+
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "RootNode",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					0.01,
+					0.01,
+					0.01
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "master",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					2
+				]
+			},
+			"2": {
+				"name": "Reference",
+				"parent": 1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					3
+				]
+			},
+			"3": {
+				"name": "Hips",
+				"parent": 2,
+				"position": [
+					0.629261,
+					99.258,
+					-9.31791
+				],
+				"rotation": [
+					-98.4224,
+					-0.230695,
+					-3.04084
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					4,
+					66,
+					71
+				]
+			},
+			"4": {
+				"name": "Spine",
+				"parent": 3,
+				"position": [
+					0,
+					0,
+					4.8178
+				],
+				"rotation": [
+					47.6583,
+					-78.3483,
+					-136.122
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					5
+				]
+			},
+			"5": {
+				"name": "Spine1",
+				"parent": 4,
+				"position": [
+					9.6357,
+					0,
+					0
+				],
+				"rotation": [
+					0.262583,
+					-5.76202,
+					1.83021
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					6
+				]
+			},
+			"6": {
+				"name": "Spine2",
+				"parent": 5,
+				"position": [
+					9.2934,
+					0,
+					0
+				],
+				"rotation": [
+					0.418486,
+					-1.47338,
+					1.81728
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					7,
+					12,
+					39
+				]
+			},
+			"7": {
+				"name": "Neck",
+				"parent": 6,
+				"position": [
+					25.1795,
+					0,
+					-8.5341
+				],
+				"rotation": [
+					-3.01869,
+					27.8781,
+					-1.56224
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					8
+				]
+			},
+			"8": {
+				"name": "Head",
+				"parent": 7,
+				"position": [
+					10.7385,
+					0,
+					0
+				],
+				"rotation": [
+					-13.631,
+					-25.0635,
+					8.83392
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					9,
+					10,
+					11
+				]
+			},
+			"9": {
+				"name": "HeadEnd",
+				"parent": 8,
+				"position": [
+					17.7519,
+					0,
+					0
+				],
+				"rotation": [
+					180,
+					-0,
+					90
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"10": {
+				"name": "RightEye",
+				"parent": 8,
+				"position": [
+					5.9282,
+					-3.2354,
+					-6.0029
+				],
+				"rotation": [
+					-0,
+					90,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"11": {
+				"name": "LeftEye",
+				"parent": 8,
+				"position": [
+					5.9281,
+					3.2354,
+					-6.0029
+				],
+				"rotation": [
+					-0,
+					90,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"12": {
+				"name": "RightShoulder",
+				"parent": 6,
+				"position": [
+					21.8896,
+					-3.1124,
+					-5.7432
+				],
+				"rotation": [
+					-7.93415,
+					-1.46826,
+					-112.031
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					13
+				]
+			},
+			"13": {
+				"name": "RightArm",
+				"parent": 12,
+				"position": [
+					13.4499,
+					0,
+					0
+				],
+				"rotation": [
+					-29.0312,
+					6.89144,
+					-54.3783
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					14
+				]
+			},
+			"14": {
+				"name": "RightForeArm",
+				"parent": 13,
+				"position": [
+					28.0988,
+					0,
+					0
+				],
+				"rotation": [
+					-0.0406183,
+					9.78435,
+					0.0163489
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					15
+				]
+			},
+			"15": {
+				"name": "RightHand",
+				"parent": 14,
+				"position": [
+					23.6631,
+					0,
+					0
+				],
+				"rotation": [
+					-15.1298,
+					1.92666,
+					-7.33936
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					16
+				]
+			},
+			"16": {
+				"name": "RightFingerBase",
+				"parent": 15,
+				"position": [
+					2.2356,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					17,
+					21,
+					26,
+					30,
+					34
+				]
+			},
+			"17": {
+				"name": "RightHandThumb1",
+				"parent": 16,
+				"position": [
+					0.1866,
+					-2.6203,
+					-2.97
+				],
+				"rotation": [
+					-11.5546,
+					24.4536,
+					-21.3058
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					18
+				]
+			},
+			"18": {
+				"name": "RightHandThumb2",
+				"parent": 17,
+				"position": [
+					2.0095,
+					0,
+					0
+				],
+				"rotation": [
+					7.54613,
+					-4.99142,
+					-2.04711
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					19
+				]
+			},
+			"19": {
+				"name": "RightHandThumb3",
+				"parent": 18,
+				"position": [
+					3.5499,
+					0,
+					0
+				],
+				"rotation": [
+					-2.76299,
+					0.707429,
+					2.46562
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					20
+				]
+			},
+			"20": {
+				"name": "RightHandThumb4",
+				"parent": 19,
+				"position": [
+					2.9302,
+					0,
+					0
+				],
+				"rotation": [
+					180,
+					46.447,
+					-154.663
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"21": {
+				"name": "RightHandIndex0",
+				"parent": 16,
+				"position": [
+					0.7711,
+					-0.0417,
+					-0.3856
+				],
+				"rotation": [
+					3.9879,
+					26.5384,
+					-3.0965
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					22
+				]
+			},
+			"22": {
+				"name": "RightHandIndex1",
+				"parent": 21,
+				"position": [
+					6.905,
+					0,
+					0
+				],
+				"rotation": [
+					-3.16189,
+					-16.6906,
+					-2.68093
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					23
+				]
+			},
+			"23": {
+				"name": "RightHandIndex2",
+				"parent": 22,
+				"position": [
+					4.1719,
+					0,
+					0
+				],
+				"rotation": [
+					0.545305,
+					-2.34336,
+					-27.5552
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					24
+				]
+			},
+			"24": {
+				"name": "RightHandIndex3",
+				"parent": 23,
+				"position": [
+					2.2923,
+					0,
+					0
+				],
+				"rotation": [
+					0.747963,
+					-0.505295,
+					-5.75554
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					25
+				]
+			},
+			"25": {
+				"name": "RightHandIndex4",
+				"parent": 24,
+				"position": [
+					2.6873,
+					0,
+					0
+				],
+				"rotation": [
+					180,
+					-2.0953,
+					-175.093
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"26": {
+				"name": "RightHandMiddle1",
+				"parent": 16,
+				"position": [
+					6.8237,
+					0.0932,
+					-1.1944
+				],
+				"rotation": [
+					-0.394419,
+					6.92239,
+					-8.34403
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					27
+				]
+			},
+			"27": {
+				"name": "RightHandMiddle2",
+				"parent": 26,
+				"position": [
+					4.6706,
+					0,
+					0
+				],
+				"rotation": [
+					0.621362,
+					-2.57902,
+					-27.254
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					28
+				]
+			},
+			"28": {
+				"name": "RightHandMiddle3",
+				"parent": 27,
+				"position": [
+					2.89,
+					0,
+					0
+				],
+				"rotation": [
+					1.21576,
+					-1.95771,
+					-20.3151
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					29
+				]
+			},
+			"29": {
+				"name": "RightHandMiddle4",
+				"parent": 28,
+				"position": [
+					2.5939,
+					0,
+					0
+				],
+				"rotation": [
+					180,
+					1.4606,
+					-170.709
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"30": {
+				"name": "RightHandRing1",
+				"parent": 16,
+				"position": [
+					6.5899,
+					-0.0932,
+					1.1944
+				],
+				"rotation": [
+					-0.681669,
+					3.77646,
+					-10.355
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					31
+				]
+			},
+			"31": {
+				"name": "RightHandRing2",
+				"parent": 30,
+				"position": [
+					4.3645,
+					0,
+					0
+				],
+				"rotation": [
+					0.507491,
+					-2.98423,
+					-32.2681
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					32
+				]
+			},
+			"32": {
+				"name": "RightHandRing3",
+				"parent": 31,
+				"position": [
+					2.7409,
+					0,
+					0
+				],
+				"rotation": [
+					3.4619,
+					-3.1022,
+					-35.5642
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					33
+				]
+			},
+			"33": {
+				"name": "RightHandRing4",
+				"parent": 32,
+				"position": [
+					2.3681,
+					0,
+					0
+				],
+				"rotation": [
+					180,
+					0.0957,
+					-165.246
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"34": {
+				"name": "RightHandPinky0",
+				"parent": 16,
+				"position": [
+					0.6772,
+					-0.0618,
+					0.3888
+				],
+				"rotation": [
+					-3.3632,
+					-29.7601,
+					-5.2129
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					35
+				]
+			},
+			"35": {
+				"name": "RightHandPinky1",
+				"parent": 34,
+				"position": [
+					6.2669,
+					0,
+					0
+				],
+				"rotation": [
+					-4.15167,
+					29.3051,
+					-11.691
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					36
+				]
+			},
+			"36": {
+				"name": "RightHandPinky2",
+				"parent": 35,
+				"position": [
+					3.6872,
+					0,
+					0
+				],
+				"rotation": [
+					1.6456,
+					-3.7437,
+					-38.9869
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					37
+				]
+			},
+			"37": {
+				"name": "RightHandPinky3",
+				"parent": 36,
+				"position": [
+					1.9142,
+					0,
+					0
+				],
+				"rotation": [
+					2.53975,
+					-4.63081,
+					-47.6203
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					38
+				]
+			},
+			"38": {
+				"name": "RightHandPinky4",
+				"parent": 37,
+				"position": [
+					1.9808,
+					0,
+					0
+				],
+				"rotation": [
+					180,
+					-1.7884,
+					-171.323
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"39": {
+				"name": "LeftShoulder",
+				"parent": 6,
+				"position": [
+					21.8898,
+					3.1124,
+					-5.7432
+				],
+				"rotation": [
+					168.672,
+					-12.0803,
+					-73.6833
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					40
+				]
+			},
+			"40": {
+				"name": "LeftArm",
+				"parent": 39,
+				"position": [
+					-13.4499,
+					0.0001,
+					0
+				],
+				"rotation": [
+					-18.97,
+					3.24851,
+					-62.8981
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					41
+				]
+			},
+			"41": {
+				"name": "LeftForeArm",
+				"parent": 40,
+				"position": [
+					-28.0988,
+					0.0001,
+					0
+				],
+				"rotation": [
+					-0.0409574,
+					8.40987,
+					0.0142967
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					42
+				]
+			},
+			"42": {
+				"name": "LeftHand",
+				"parent": 41,
+				"position": [
+					-23.6631,
+					0.0002,
+					0
+				],
+				"rotation": [
+					-30.2509,
+					-3.91314,
+					3.24803
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					43
+				]
+			},
+			"43": {
+				"name": "LeftFingerBase",
+				"parent": 42,
+				"position": [
+					-2.2358,
+					-0.0005,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					44,
+					48,
+					53,
+					57,
+					61
+				]
+			},
+			"44": {
+				"name": "LeftHandThumb1",
+				"parent": 43,
+				"position": [
+					-0.1865,
+					2.6206,
+					2.97
+				],
+				"rotation": [
+					-101.185,
+					26.08,
+					-20.2263
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					45
+				]
+			},
+			"45": {
+				"name": "LeftHandThumb2",
+				"parent": 44,
+				"position": [
+					-2.0095,
+					-0.0001,
+					0.0002
+				],
+				"rotation": [
+					7.11998,
+					1.52735,
+					-0.055842
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					46
+				]
+			},
+			"46": {
+				"name": "LeftHandThumb3",
+				"parent": 45,
+				"position": [
+					-3.5498,
+					0,
+					-0.0003
+				],
+				"rotation": [
+					-3.26462,
+					-4.35834,
+					4.9482
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					47
+				]
+			},
+			"47": {
+				"name": "LeftHandThumb4",
+				"parent": 46,
+				"position": [
+					-2.9302,
+					0,
+					0.0001
+				],
+				"rotation": [
+					71.0605,
+					17.149,
+					130.672
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"48": {
+				"name": "LeftHandIndex0",
+				"parent": 43,
+				"position": [
+					-0.771,
+					0.0417,
+					0.3856
+				],
+				"rotation": [
+					3.9879,
+					26.5384,
+					-3.0965
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					49
+				]
+			},
+			"49": {
+				"name": "LeftHandIndex1",
+				"parent": 48,
+				"position": [
+					-6.905,
+					0.0004,
+					0
+				],
+				"rotation": [
+					-3.54473,
+					-13.3236,
+					-1.69712
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					50
+				]
+			},
+			"50": {
+				"name": "LeftHandIndex2",
+				"parent": 49,
+				"position": [
+					-4.1719,
+					0.0003,
+					0
+				],
+				"rotation": [
+					0.0303152,
+					-0.768431,
+					-8.85923
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					51
+				]
+			},
+			"51": {
+				"name": "LeftHandIndex3",
+				"parent": 50,
+				"position": [
+					-2.2922,
+					-0.0006,
+					0
+				],
+				"rotation": [
+					0.738461,
+					-0.407217,
+					-4.68162
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					52
+				]
+			},
+			"52": {
+				"name": "LeftHandIndex4",
+				"parent": 51,
+				"position": [
+					-2.6874,
+					0.0001,
+					0
+				],
+				"rotation": [
+					180,
+					-2.0953,
+					-175.093
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"53": {
+				"name": "LeftHandMiddle1",
+				"parent": 43,
+				"position": [
+					-6.8237,
+					-0.0934,
+					1.1944
+				],
+				"rotation": [
+					-0.203019,
+					9.95903,
+					-7.03718
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					54
+				]
+			},
+			"54": {
+				"name": "LeftHandMiddle2",
+				"parent": 53,
+				"position": [
+					-4.6706,
+					0.0004,
+					0
+				],
+				"rotation": [
+					0.276681,
+					-1.74515,
+					-18.2759
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					55
+				]
+			},
+			"55": {
+				"name": "LeftHandMiddle3",
+				"parent": 54,
+				"position": [
+					-2.8901,
+					0.0001,
+					0
+				],
+				"rotation": [
+					0.296259,
+					-1.77915,
+					-18.6533
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					56
+				]
+			},
+			"56": {
+				"name": "LeftHandMiddle4",
+				"parent": 55,
+				"position": [
+					-2.5939,
+					0.0002,
+					0
+				],
+				"rotation": [
+					180,
+					1.4606,
+					-170.709
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"57": {
+				"name": "LeftHandRing1",
+				"parent": 43,
+				"position": [
+					-6.5899,
+					0.0932,
+					-1.1944
+				],
+				"rotation": [
+					-0.579314,
+					7.05019,
+					-10.3362
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					58
+				]
+			},
+			"58": {
+				"name": "LeftHandRing2",
+				"parent": 57,
+				"position": [
+					-4.3645,
+					0.0003,
+					0
+				],
+				"rotation": [
+					0.476275,
+					-2.9153,
+					-31.8693
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					59
+				]
+			},
+			"59": {
+				"name": "LeftHandRing3",
+				"parent": 58,
+				"position": [
+					-2.741,
+					0.0001,
+					0
+				],
+				"rotation": [
+					1.88572,
+					-3.08183,
+					-36.6592
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					60
+				]
+			},
+			"60": {
+				"name": "LeftHandRing4",
+				"parent": 59,
+				"position": [
+					-2.3681,
+					-0.0001,
+					0
+				],
+				"rotation": [
+					180,
+					0.0957,
+					-165.246
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"61": {
+				"name": "LeftHandPinky0",
+				"parent": 43,
+				"position": [
+					-0.6772,
+					0.0617,
+					-0.3888
+				],
+				"rotation": [
+					-3.3632,
+					-29.7601,
+					-5.2129
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					62
+				]
+			},
+			"62": {
+				"name": "LeftHandPinky1",
+				"parent": 61,
+				"position": [
+					-6.2667,
+					0.0006,
+					0
+				],
+				"rotation": [
+					-2.78629,
+					29.8312,
+					-9.99465
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					63
+				]
+			},
+			"63": {
+				"name": "LeftHandPinky2",
+				"parent": 62,
+				"position": [
+					-3.6872,
+					-0.0003,
+					0
+				],
+				"rotation": [
+					-0.725365,
+					-1.81253,
+					-49.5472
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					64
+				]
+			},
+			"64": {
+				"name": "LeftHandPinky3",
+				"parent": 63,
+				"position": [
+					-1.9142,
+					0.0003,
+					0
+				],
+				"rotation": [
+					2.96045,
+					-4.947,
+					-52.9577
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					65
+				]
+			},
+			"65": {
+				"name": "LeftHandPinky4",
+				"parent": 64,
+				"position": [
+					-1.9809,
+					0.0001,
+					0
+				],
+				"rotation": [
+					180,
+					-1.7884,
+					-171.323
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"66": {
+				"name": "RightUpLeg",
+				"parent": 3,
+				"position": [
+					-9.1683,
+					-6.3898,
+					-11.4584
+				],
+				"rotation": [
+					-89.4154,
+					89.4561,
+					9.21452
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					67
+				]
+			},
+			"67": {
+				"name": "RightLeg",
+				"parent": 66,
+				"position": [
+					36.702,
+					0,
+					0
+				],
+				"rotation": [
+					9.83623,
+					-17.9292,
+					-4.86607
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					68
+				]
+			},
+			"68": {
+				"name": "RightFoot",
+				"parent": 67,
+				"position": [
+					44.2125,
+					0,
+					0
+				],
+				"rotation": [
+					-22.0887,
+					61.8315,
+					59.6618
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					69
+				]
+			},
+			"69": {
+				"name": "RightToeBase",
+				"parent": 68,
+				"position": [
+					15.4224,
+					0,
+					0
+				],
+				"rotation": [
+					-1.60283e-06,
+					-1.81527e-06,
+					7.10032
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					70
+				]
+			},
+			"70": {
+				"name": "RightToeEnd",
+				"parent": 69,
+				"position": [
+					7.3871,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					89.2192,
+					15.5362
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			},
+			"71": {
+				"name": "LeftUpLeg",
+				"parent": 3,
+				"position": [
+					9.1683,
+					-6.3898,
+					-11.4584
+				],
+				"rotation": [
+					115.176,
+					-99.8636,
+					-10.0478
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					72
+				]
+			},
+			"72": {
+				"name": "LeftLeg",
+				"parent": 71,
+				"position": [
+					-36.702,
+					0,
+					0
+				],
+				"rotation": [
+					-0.492254,
+					-23.8649,
+					2.6414
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					73
+				]
+			},
+			"73": {
+				"name": "LeftFoot",
+				"parent": 72,
+				"position": [
+					-44.2125,
+					0,
+					0
+				],
+				"rotation": [
+					-92.0588,
+					79.6126,
+					-8.24426
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					74
+				]
+			},
+			"74": {
+				"name": "LeftToeBase",
+				"parent": 73,
+				"position": [
+					-15.4224,
+					0,
+					0
+				],
+				"rotation": [
+					-0.00464721,
+					-0.00126825,
+					7.45387
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+					75
+				]
+			},
+			"75": {
+				"name": "LeftToeEnd",
+				"parent": 74,
+				"position": [
+					-7.3872,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					89.2192,
+					15.5362
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				]
+			}
+		}
+	}
+}
